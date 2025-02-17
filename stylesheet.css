@@ -57,7 +57,7 @@ div#container {
             background-color: #b7c6a5;
             border-radius: 15px;
             padding: 20px;
-            min-height: 600px;
+            min-height: 300px;
 
             nav {
                 float: left;
@@ -104,18 +104,24 @@ div#container {
                         font-size: 110%;
                     }
 
-                }
-
-                a {
-                    text-transform: uppercase;
-                    float: right;
-                    color: darkred;
-                    text-decoration: none;
-
-                    &:hover {
-                        text-decoration: underline;
+                    &.learn-more {
+                        text-align: right;
+    
+                        a {
+                            text-transform: uppercase;
+                            color: darkred;
+                            text-decoration: none;
+    
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
                     }
                 }
+            }
+
+            div.clear-float {
+                clear: both;
             }
         }
     }
