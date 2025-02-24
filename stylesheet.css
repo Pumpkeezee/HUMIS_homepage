@@ -1,5 +1,5 @@
 div#container {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     min-height: 500px;
     min-width: 900px;
     margin: 0 auto;
@@ -9,7 +9,7 @@ div#container {
     /* right carat applies feature to all children of container */
     /* asterisk means every item */
     >* {
-        border: 1px dotted blue;
+        /*border: 1px dotted blue;*/
         margin: 5px;
 
         /*margin reads T,R,B,L or repeats down the list if just 1 or 2*/
